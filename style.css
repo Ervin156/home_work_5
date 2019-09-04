@@ -1,0 +1,25 @@
+
+body{
+    display: flex;
+}
+#city_list_first, #city_list_second{
+    width: 200px;
+} 
+
+.first_List, .second_List{
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    text-indent: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+li:hover{
+    background-color: #4cb1ca;
+    color: white;
+    border-radius:10px;
+}
